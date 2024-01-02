@@ -1,12 +1,9 @@
 .wrapper {
-    // position: absolute;
     width: 100%;
-    max-height: min(100vh - 156px, 760px);
+    // max-height: min(100vh - 156px, 760px);
     min-height: 100px;
     border-radius: 8px;
     padding-top: 8px;
     background: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
-    // overflow: hidden auto;
-    // list-style-type: none;
 }
