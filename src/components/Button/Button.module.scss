@@ -6,6 +6,7 @@
     padding: 8px 16px;
     font-size: 1.6rem;
     font-weight: 700;
+    font-family: 'TikTokFont', sans-serif;
     border-radius: 4px;
     cursor: pointer;
     background-color: var(--white);
@@ -29,9 +30,12 @@
 }
 
 .icon {
-    display: inline-block;
+    // display: inline-block;
+    // text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 24px;
-    text-align: center;
 }
 
 // Button types
@@ -84,3 +88,5 @@
     padding: 14px 16px;
     min-width: 140px;
 }
+
+

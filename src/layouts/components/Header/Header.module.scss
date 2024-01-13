@@ -1,0 +1,112 @@
+.wrapper {
+    --search-border-radius: 92px;
+    --search-height: 46px;
+    --search-top-spacer: 9px;
+    --search-button-width: 52px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: var(--default-layout-header-height);
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    background-color: var(--white);
+}
+.inner {
+    height: 100%;
+    width: var(--default-layout-width);
+    padding: 0px var(--default-layout-horizontal-spacer);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-link {
+    display: flex;
+}
+
+// Actions
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.more-btn{
+    font-size: 2rem;
+    margin-left: 28px;
+    padding: 4px 6px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.action-btn {
+    // font-size: 2.2rem;
+    color: #161823;
+    background-color: transparent;
+    padding: 4px 15px;
+    cursor: pointer;
+}
+
+.btn-upload {
+    min-width: 110px;
+    padding: 0px 16px;
+    height: 36px;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    border-radius: 2px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.btn-upload-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px 
+}
+
+.btn-upload-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.inbox {
+    // margin-left: 16px;
+    position: relative;
+}
+
+.notification-inbox {
+    color: rgb(255, 255, 255);
+    font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    left: 32px;
+    background: rgb(254, 44, 85);
+    min-width: 22px;
+    height: 20px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    top: -5%;
+}

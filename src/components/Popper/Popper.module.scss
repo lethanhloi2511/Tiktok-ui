@@ -1,6 +1,9 @@
 .wrapper {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    // max-height: min(100vh - 156px, 760px);
+    max-height: min(500vh - 156px, 760px);
+    // max-height: min(100vh - 96px - 60px, 760px);
     min-height: 100px;
     border-radius: 8px;
     padding-top: 8px;
